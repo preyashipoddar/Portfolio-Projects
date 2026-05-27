@@ -1,0 +1,9 @@
+PyMuPDF
+openai
+tavily-python
+langchain-text-splitters
+psycopg2-binary
+python-dotenv
+typer
+jsonschema
+streamlit
