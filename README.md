@@ -14,6 +14,8 @@ Achieved 90% reliability with a sub-10% hallucination rate across structured ris
 
 **🏦 Modern Banking Data Platform**
 
+[![Repository](https://img.shields.io/badge/View-Repository-blue)](https://github.com/ppoddar0101/banking-modern-datastack)
+
 An end-to-end data engineering pipeline simulating a modern banking data stack. The project captures transactional changes from PostgreSQL using Change Data Capture (CDC), streams events through Kafka, stores raw data in a MinIO data lake, loads data into Snowflake, transforms it with dbt, orchestrates workflows with Airflow, and visualizes insights in Power BI.
 
 Tech Stack: PostgreSQL, Debezium, Kafka, MinIO (S3), Snowflake, dbt, Airflow, Python, GitHub Actions, Power BI
@@ -25,8 +27,6 @@ Built staging, dimensional, fact, and SCD Type 2 snapshot models using dbt
 Implemented Airflow DAGs for scheduled ingestion and transformation workflows
 Added CI/CD with GitHub Actions for automated dbt validation and deployment
 Developed Power BI dashboards for customer, account, and transaction analytics
-
-Repository: https://github.com/ppoddar0101/banking-modern-datastack
 
 **🎵 Spotify Hit Prediction - Data Analytics & Machine Learning**
 
