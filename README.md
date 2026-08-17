@@ -4,7 +4,7 @@
 
 [![Repository](https://img.shields.io/badge/View-Repository-blue)](https://github.com/preyashipoddar/papershield)
 
-Now maintained in its own repository. An AI-powered contract analysis tool that identifies legal risks using Retrieval-Augmented Generation (RAG), combining vector search with large language models to provide structured risk assessments, clause explanations, and natural language question answering.
+An AI-powered contract analysis tool that identifies legal risks using Retrieval-Augmented Generation (RAG), combining vector search with large language models to provide structured risk assessments, clause explanations, and natural language question answering.
 
 Tech Stack: Python, LangChain, GPT-4o, pgvector, PostgreSQL, Docker, Tavily API
 
