@@ -14,7 +14,7 @@ Achieved 90% reliability with a sub-10% hallucination rate across structured ris
 
 **🏦 Modern Banking Data Platform**
 
-[![Repository](https://img.shields.io/badge/View-Repository-blue)](https://github.com/ppoddar0101/banking-modern-datastack)
+[![Repository](https://img.shields.io/badge/View-Repository-blue)](https://github.com/preyashipoddar/banking-modern-datastack)
 
 An end-to-end data engineering pipeline simulating a modern banking data stack. The project captures transactional changes from PostgreSQL using Change Data Capture (CDC), streams events through Kafka, stores raw data in a MinIO data lake, loads data into Snowflake, transforms it with dbt, orchestrates workflows with Airflow, and visualizes insights in Power BI.
 
