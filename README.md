@@ -1,16 +1,12 @@
 **Portfolio Projects**
+
 **🛡️ PaperShield - AI Contract Risk Analysis**
 
-PaperShield is an AI-powered contract analysis tool that helps users identify legal risks in contracts using Retrieval-Augmented Generation (RAG). The application combines vector search with large language models to provide structured risk assessments, clause explanations, and natural language question answering.
+[![Repository](https://img.shields.io/badge/View-Repository-blue)](https://github.com/preyashipoddar/papershield)
+
+Now maintained in its own repository. An AI-powered contract analysis tool that identifies legal risks using Retrieval-Augmented Generation (RAG), combining vector search with large language models to provide structured risk assessments, clause explanations, and natural language question answering.
 
 Tech Stack: Python, LangChain, GPT-4o, pgvector, PostgreSQL, Docker, Tavily API
-
-Key Features
-
-Retrieval-Augmented Generation (RAG) pipeline for contract analysis
-Semantic search using vector embeddings
-Tool calling for real-time legal context
-Achieved 90% reliability with a sub-10% hallucination rate across structured risk scans and user queries
 
 **🏦 Modern Banking Data Platform**
 
@@ -22,7 +18,6 @@ Tech Stack: PostgreSQL, Debezium, Kafka, MinIO (S3), Snowflake, dbt, Airflow, Py
 
 Key Features
 
-Processed 1,000+ synthetic banking transactions through an automated ELT pipeline
 Built staging, dimensional, fact, and SCD Type 2 snapshot models using dbt
 Implemented Airflow DAGs for scheduled ingestion and transformation workflows
 Added CI/CD with GitHub Actions for automated dbt validation and deployment
@@ -30,13 +25,13 @@ Developed Power BI dashboards for customer, account, and transaction analytics
 
 **🎵 Spotify Hit Prediction - Data Analytics & Machine Learning**
 
-Built a machine learning model to predict Spotify song popularity using a Kaggle dataset. The project includes exploratory data analysis, feature engineering, regression modeling, and a detailed project report.
+Built a machine learning model to predict Spotify song stream counts using a Kaggle dataset. The project includes exploratory data analysis, feature engineering, regression modeling (Linear Regression, Random Forest, Gradient Boosting, XGBoost), and a detailed project report.
 
 Dataset: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023
 
 **🦠 COVID-19 Data Exploration (SQL)**
 
-Explored global COVID-19 trends using SQL, performing data cleaning, aggregations, joins, and trend analysis to prepare datasets for visualization.
+Explored global COVID-19 trends using SQL, performing data cleaning, aggregations, joins, CTEs, and windowed rolling aggregates to prepare datasets for visualization.
 
 **📊 COVID-19 Tableau Dashboard**
 
@@ -59,4 +54,3 @@ Features
 Interactive drill-downs by gender and job role
 DAX measures for demographic and salary analysis
 Dynamic filtering and cross-visual interactions
-  
