@@ -1,5 +1,20 @@
 **Portfolio Projects**
 
+**🦠 Flu Hospital Admissions Forecast & Staffing Dashboard**
+
+[![Repository](https://img.shields.io/badge/View-Repository-blue)](https://github.com/preyashipoddar/flu-admissions-forecast) [![Dashboard](https://img.shields.io/badge/View-Live%20Dashboard-orange)](https://public.tableau.com/views/FluStaffingOutlookUS/FluStaffingOutlookUS)
+
+Four-week-ahead forecasts of weekly US flu hospital admissions with calibrated uncertainty ranges, evaluated the way CDC scores its own FluSight forecasting challenge and translated into a nurse staffing decision. Forecasting from data as it was first published, a linear model pooled across 53 states and territories scored 37% better than CDC's baseline on CDC's weighted interval score, within 0.04 of CDC's multi-team ensemble, with 82% of outcomes landing inside its 80% uncertainty range (ensemble: 78%).
+
+Tech Stack: Python, pandas, statsmodels, NumPy, GitHub Actions, Google Sheets API, Tableau Public
+
+Key Features
+
+Rolling-origin backtest on 51 forecast dates using CDC's archive of 98 data versions, so each forecast used only the data available that week
+Weekly monitoring job that logs forecasts before outcomes are known, scores them once data settles, and alerts if the model stops beating a seasonal baseline
+Staffing-cost analysis across overtime and agency cost scenarios from published nurse wage data: 23-35% cheaper than CDC's baseline at every scenario
+Self-updating Tableau Public dashboard fed by the weekly pipeline: forecast fan chart, track record of past forecasts, and a cost-ratio slider for staffing decisions
+
 **🛡️ PaperShield - AI Contract Risk Analysis**
 
 [![Repository](https://img.shields.io/badge/View-Repository-blue)](https://github.com/preyashipoddar/papershield)
